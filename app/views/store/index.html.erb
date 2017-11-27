@@ -8,7 +8,7 @@
     <h3><%= product.title %></h3>
     <%= sanitize(product.description) %>
     <div class="price_line">
-      <spam class="price"><%= product.price %></spam>
+      <spam class="price"><%= number_to_currency(product.price) %></spam>
     </div>
   </div>
 <% end %>
