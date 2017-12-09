@@ -9,8 +9,8 @@ es:
   
   store:
     index:
-    title_html: "Su Cat&aacute;logo de Pragmatic"
-    add_html: "A&ntilde;adir al Carrito"
+      title_html: "Su Cat&aacute;logo de Pragmatic"
+      add_html: "A&ntilde;adir al Carrito"
 
   carts:
     cart:
@@ -26,8 +26,3 @@ es:
         separator: ","
         delimiter: "."
         format: "%n&nbsp;%u"
-        "$US"
-        2
-        ","
-        "."
-        
